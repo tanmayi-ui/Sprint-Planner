@@ -883,7 +883,7 @@ export default function ProjectPlanner() {
       )}
       <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: 16, flexWrap: 'wrap', gap: 12 }}>
         <div style={{ display: 'flex', alignItems: 'center', gap: 12 }}>
-          <span style={{ fontSize: 18, fontWeight: 500, color: '#0f172a' }}>Project Planner By Travtech</span>
+          <span style={{ fontSize: 18, fontWeight: 500, color: '#0f172a' }}>Project Planner</span>
           {syncMsg  && <span style={{ fontSize: 12, padding: '3px 10px', borderRadius: 8, background: syncOk ? 'rgba(16,185,129,0.12)' : 'rgba(239,68,68,0.12)', color: syncOk ? '#10b981' : '#ef4444' }}>{syncMsg}</span>}
           {writeMsg && <span style={{ fontSize: 12, padding: '3px 10px', borderRadius: 8, background: 'rgba(59,130,246,0.1)', color: '#1d4ed8' }}>{writeMsg}</span>}
         </div>
